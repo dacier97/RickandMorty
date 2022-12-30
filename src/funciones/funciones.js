@@ -5,7 +5,7 @@ const endPoint = 'https://rickandmortyapi.com/api/character/'
 
 const todosLosPersonajes = async (st) => {
   const peticion = await axios.get(endPoint);
-  console.log(peticion)
+  /*console.log(peticion)*/
   st(peticion.data.results);
 };
 
