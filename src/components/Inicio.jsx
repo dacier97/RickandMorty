@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {todosLosPersonajes} from "../funciones/funciones";
 
-const Inicio = () => {
+const Inicio = () => { 
   const [Personajes, setPersonajes] = useState(null);
   
   useEffect(() => {
