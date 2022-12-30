@@ -20,7 +20,7 @@ function Personaje() {
           <img src={personaje.data.image} alt="" />
         </div>
       ) : (
-        "no hay personaje"
+        "sin personaje"
       )}
     </>
   );
